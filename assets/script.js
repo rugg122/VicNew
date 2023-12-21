@@ -39,7 +39,7 @@ $(document).ready(function(){
         verificaFundo(nova);
         $("html, body").animate({ scrollTop: 0 }, "slow");
         if(nova == 5){
-            var audio = new Audio('./assets/musica.mp3');
+            var audio = new Audio('assets/musica.mp3');
             audio.volume = 0.1;
             audio.play();
         }
